@@ -1,9 +1,9 @@
 <template>
   <!-- Hauptcontainer -->
   <div class="container mx-auto p-4">
-    <!-- Größerer Button mit geänderter Farbe und Text -->
+    <!-- Button für Datenabruf -->
     <button @click="fetchData" class="bg-green-500 text-white py-3 px-6 mb-8 rounded-full text-xl">Daten Abrufen</button>
-
+    
     <!-- Datenanzeigebereich in einer responsiven Rasteransicht -->
     <div class="grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
       <!-- Kleinere Boxen mit Hintergrundfarbe und Abstand -->
