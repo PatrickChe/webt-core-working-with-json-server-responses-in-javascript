@@ -3,7 +3,7 @@
   <div class="container mx-auto p-4">
     <!-- Button für Datenabruf -->
     <button @click="fetchData" class="bg-blue-500 text-white py-2 px-4 mb-4">Glückliche Wahl</button>
-    
+
     <!-- Datenanzeigebereich in einer responsiven Rasteransicht -->
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
       <!-- Dynamisch generierte Datenfelder -->
@@ -11,7 +11,7 @@
         <p>{{ box.label }}:</p>
         <p>{{ box.value }}</p>
       </div>
-      
+
       <!-- Nachricht bei noch nicht geladenen Daten -->
       <div v-if="!dataLoaded" class="text-gray-600">Klicken Sie auf den Button, um Daten zu laden.</div>
     </div>
