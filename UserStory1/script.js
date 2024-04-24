@@ -1,4 +1,3 @@
-//Tested ob button gedrückt wurde
 //Fetch-Anfrage, um Daten von der angegebenen URL abzurufen
 fetch("https://jsonplaceholder.typicode.com/todos/1")
     .then((response) => {
